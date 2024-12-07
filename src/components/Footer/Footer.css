@@ -1,0 +1,31 @@
+/* Footer Styles */
+.footer {
+    color: #bbbbbb;
+    padding: 20px;
+    text-align: center;
+    font-family: Trebuchet, Arial, sans-serif;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    color: #bbbbbb;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-description {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  }
+  

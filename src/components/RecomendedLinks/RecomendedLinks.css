@@ -1,0 +1,24 @@
+.LinksContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.LinkItems{
+
+}
+.LinkItem1{
+color: #989eae;
+font-size: 14px;
+}
+.LinkItem2{
+    color: #FFA600;
+    text-decoration: underline;
+    font-size: 14px;
+ }
+
+ .LinkItem2:hover{
+    color: orangered;
+    width: max-content;
+ }

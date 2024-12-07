@@ -1,0 +1,65 @@
+.DetailInfo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+    padding: 10px 20px;
+}
+.image{
+  width: 200px;
+  align-self: center;
+  margin-top: 5px;
+  border: 1px solid gray;
+  padding: 3px; 
+}
+
+.itemSimilar{
+color: #989eae;
+font-weight: 700;
+}
+.spanSimilar{
+    color: #FFA600;
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.pragraph{
+    color:#989eae ;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1.5em 0;
+    padding: 0;
+}
+
+.btnGroup{
+   display: flex;
+   gap: 5px;
+   align-items: center;
+   
+}
+
+.buttn{
+    width: 100%;
+    padding: 10px 20px;
+    color: #ff00ff;
+    border: 1px solid  #ff00ff;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttn:hover{
+    color: white;
+    background-color: #ff00ff;
+}
+.playBtn{
+    position: absolute;
+    font-size: 100px;
+    top:40%;
+    right: 40%;
+    color: #FFA600;
+}
+.playBtn:hover{
+    color: coral;
+}
